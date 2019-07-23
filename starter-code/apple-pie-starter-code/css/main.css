@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  margin: 0px;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../images/apple-pie.jpg");
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  color: white;
+  font-size: 90px;
+  padding-left: 35%;
+  padding-top: 20%;
+}
+
+
+.recipedescription {
+  font-weight: normal;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 8%;
+  padding-left: 13%;
+  padding-right: 13%
+}
+
+.directionsrecipe p {
+  text-align: justify;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 34px;
+  padding: 80px 260px 50px 190px;
+}
+
+.recipe-info {
+  margin-left: 27%;
+  margin-bottom: 2%;
+}
+
+hr {
+  border-top: 1px solid lightgrey;
+  margin-left: 13%;
+  margin-right: 15%;
+}
+
+.ingredientsrecipe {
+  padding-left: 14%;
+}
+
+h2 {
+  font-size: 24px;
+padding-bottom: 15px;
+}
+
+ul {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.cooking-info {
+  padding-top: 35px;
+  padding-left: 12%;
+}
+
+#directionsrecipe {
+padding-left: 16%;
+padding-right: 16%;
+text-align: justify;
+}
+
+ol {
+  list-style: lower-alpha;  
+  font-weight: 200;
+  font-size: 20px;
+}
